@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.text{
+    width: 50%;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.horiz-tab{
+    position: absolute;
+    width: 450px;
+    height: 28px;
+    right: 8rem;
+    top: 13rem;
+    transform: rotate(270deg); 
+    text-align: left;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.btn{
+    width: 50%;
+    height: 5%;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8rem;
+}
+button{
+    width: 60%;
+    height: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 28px;
+
+}
+button:hover{
+    background: transparent;
+}
+span{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #7959D7;
+    opacity: 1;
+    font-size: 100%;
+    font-weight: bold
+}
+span:hover{
+    color: #FFFFFF;
+}
+h2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    letter-spacing: 0px;
+    color: #2B2828;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.pdf-parag{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    letter-spacing: 0px;
+    color: #2B2828;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.edit-pdf{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.edit-pdf p{
+    font-size: 20px;
+    padding-left: 1rem;
+}
+.edit-pdf p span{
+    color: #5068F2;
+}
+.import-file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.input-file{
+    font-size: 15px;
+}
+.btn-file{
+    width: 20%;
+    height: 2rem;
+    background: #5569F7 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 0px 15px #FFFFFF91;
+    border-radius: 7px;
+    opacity: 1;
+}
+@media (max-width: 650px) { 
+    .app{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        right: 0rem !important;
+    }
+    .horiz-tab{
+        right: 1rem !important;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 850px){ 
+    .img{
+        bottom: 1rem !important;
+        right: -5rem !important;
+    }
+    .horiz-tab{
+        right: -3rem !important;
+    }
+}
+@media (min-width: 850px) and (max-width: 1300px){ 
+    .img{
+        right: -2rem !important;
+    }
+    .horiz-tab{
+        right: -1rem !important;
+    }
+}
